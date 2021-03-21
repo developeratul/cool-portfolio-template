@@ -57,7 +57,7 @@ $mainColor: #ff0078;
 }
 
 ::selection {
-  background: grey;
+  background: #180000;
 }
 
 html {
@@ -243,6 +243,10 @@ nav {
         color: white;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
+        transition: 0.5s;
+        &:hover {
+          color: $mainColor;
+        }
       }
     }
   }
